@@ -14,6 +14,8 @@
 		B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942D61C4ECDF60046D541 /* UIView+BMLayoutConstraints.m */; };
 		B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942E51C500DAA0046D541 /* BMKeychainWrapper.h */; };
 		B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942E61C500DAA0046D541 /* BMKeychainWrapper.m */; };
+		B48942F11C501C980046D541 /* NSString+BMRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942EF1C501C980046D541 /* NSString+BMRegex.h */; };
+		B48942F21C501C980046D541 /* NSString+BMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942F01C501C980046D541 /* NSString+BMRegex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B48942D61C4ECDF60046D541 /* UIView+BMLayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMLayoutConstraints.m"; sourceTree = "<group>"; };
 		B48942E51C500DAA0046D541 /* BMKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKeychainWrapper.h; sourceTree = "<group>"; };
 		B48942E61C500DAA0046D541 /* BMKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKeychainWrapper.m; sourceTree = "<group>"; };
+		B48942EF1C501C980046D541 /* NSString+BMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BMRegex.h"; sourceTree = "<group>"; };
+		B48942F01C501C980046D541 /* NSString+BMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BMRegex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				B48942D61C4ECDF60046D541 /* UIView+BMLayoutConstraints.m */,
 				B48942BF1C4ECC640046D541 /* BMUtils.h */,
 				B48942C11C4ECC640046D541 /* Info.plist */,
+				B48942EF1C501C980046D541 /* NSString+BMRegex.h */,
+				B48942F01C501C980046D541 /* NSString+BMRegex.m */,
 			);
 			path = BMUtils;
 			sourceTree = "<group>";
@@ -78,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48942C01C4ECC640046D541 /* BMUtils.h in Headers */,
+				B48942F11C501C980046D541 /* NSString+BMRegex.h in Headers */,
 				B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */,
 				B48942D91C4ECDF60046D541 /* UIView+BMLayoutConstraints.h in Headers */,
 				B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */,
@@ -154,6 +161,7 @@
 			files = (
 				B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */,
 				B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */,
+				B48942F21C501C980046D541 /* NSString+BMRegex.m in Sources */,
 				B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

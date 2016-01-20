@@ -12,6 +12,8 @@
 		B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942D41C4ECDF60046D541 /* UIView+BMFindSubview.m */; };
 		B48942D91C4ECDF60046D541 /* UIView+BMLayoutConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942D51C4ECDF60046D541 /* UIView+BMLayoutConstraints.h */; };
 		B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942D61C4ECDF60046D541 /* UIView+BMLayoutConstraints.m */; };
+		B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942E51C500DAA0046D541 /* BMKeychainWrapper.h */; };
+		B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942E61C500DAA0046D541 /* BMKeychainWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B48942D41C4ECDF60046D541 /* UIView+BMFindSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMFindSubview.m"; sourceTree = "<group>"; };
 		B48942D51C4ECDF60046D541 /* UIView+BMLayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMLayoutConstraints.h"; sourceTree = "<group>"; };
 		B48942D61C4ECDF60046D541 /* UIView+BMLayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMLayoutConstraints.m"; sourceTree = "<group>"; };
+		B48942E51C500DAA0046D541 /* BMKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKeychainWrapper.h; sourceTree = "<group>"; };
+		B48942E61C500DAA0046D541 /* BMKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKeychainWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		B48942BE1C4ECC640046D541 /* BMUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B48942E51C500DAA0046D541 /* BMKeychainWrapper.h */,
+				B48942E61C500DAA0046D541 /* BMKeychainWrapper.m */,
 				B48942D31C4ECDF60046D541 /* UIView+BMFindSubview.h */,
 				B48942D41C4ECDF60046D541 /* UIView+BMFindSubview.m */,
 				B48942D51C4ECDF60046D541 /* UIView+BMLayoutConstraints.h */,
@@ -72,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B48942C01C4ECC640046D541 /* BMUtils.h in Headers */,
+				B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */,
 				B48942D91C4ECDF60046D541 /* UIView+BMLayoutConstraints.h in Headers */,
 				B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */,
 			);
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */,
 				B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */,
 				B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */,
 			);
@@ -292,6 +300,7 @@
 				B48942C61C4ECC640046D541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

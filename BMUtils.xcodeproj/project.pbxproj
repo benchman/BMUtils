@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4815A8D1C5545EF00A42C8B /* NSArray+BMFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */; };
+		B4815A8E1C5545EF00A42C8B /* NSArray+BMFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */; };
 		B48942C01C4ECC640046D541 /* BMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942BF1C4ECC640046D541 /* BMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942D31C4ECDF60046D541 /* UIView+BMFindSubview.h */; };
 		B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942D41C4ECDF60046D541 /* UIView+BMFindSubview.m */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BMFunctional.h"; sourceTree = "<group>"; };
+		B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BMFunctional.m"; sourceTree = "<group>"; };
 		B48942BC1C4ECC640046D541 /* BMUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48942BF1C4ECC640046D541 /* BMUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMUtils.h; sourceTree = "<group>"; };
 		B48942C11C4ECC640046D541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				B48942C11C4ECC640046D541 /* Info.plist */,
 				B48942EF1C501C980046D541 /* NSString+BMRegex.h */,
 				B48942F01C501C980046D541 /* NSString+BMRegex.m */,
+				B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */,
+				B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */,
 			);
 			path = BMUtils;
 			sourceTree = "<group>";
@@ -86,6 +92,7 @@
 				B48942C01C4ECC640046D541 /* BMUtils.h in Headers */,
 				B48942F11C501C980046D541 /* NSString+BMRegex.h in Headers */,
 				B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */,
+				B4815A8D1C5545EF00A42C8B /* NSArray+BMFunctional.h in Headers */,
 				B48942D91C4ECDF60046D541 /* UIView+BMLayoutConstraints.h in Headers */,
 				B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */,
 			);
@@ -161,6 +168,7 @@
 			files = (
 				B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */,
 				B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */,
+				B4815A8E1C5545EF00A42C8B /* NSArray+BMFunctional.m in Sources */,
 				B48942F21C501C980046D541 /* NSString+BMRegex.m in Sources */,
 				B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */,
 			);

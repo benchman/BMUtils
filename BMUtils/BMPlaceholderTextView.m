@@ -73,6 +73,7 @@
     label.font = self.font;
     label.textColor = self.placeholderColor;
     label.text = self.placeholder;
+    label.userInteractionEnabled = NO;
     label.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:label];
     self.leftConstraint = [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeLeading multiplier:1.0 constant:0];

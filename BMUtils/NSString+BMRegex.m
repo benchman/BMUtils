@@ -12,6 +12,7 @@ static NSString * const kEmailRegex = @"[A-Za-z0-9._+-]+@[A-Za-z0-9._-]+\\.[A-Za
 static NSString * const kHasDigitRegex = @".*[0-9]+.*";
 static NSString * const kHasUppercaseRegex = @".*[[:upper:]]+.*";
 static NSString * const kHasSymbolRegex = @".*[[:punct:]]+.*";
+static NSString * const kUUIDRegex = @"[A-Za-z0-9]{8}(?:-[A-Za-z0-9]{4}){3}-[A-Za-z0-9]{12}";
 
 @implementation NSString (SIG)
 
@@ -29,6 +30,10 @@ static NSString * const kHasSymbolRegex = @".*[[:punct:]]+.*";
 
 - (BOOL)hasSymbol {
     return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@", kHasSymbolRegex] evaluateWithObject:self];
+}
+
+- (BOOL)isValidUUID {
+    return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@", kUUIDRegex] evaluateWithObject:self];
 }
 
 @end

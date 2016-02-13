@@ -14,5 +14,6 @@
 - (BOOL)hasDigit;
 - (BOOL)hasUppercase;
 - (BOOL)hasSymbol;
+- (BOOL)isValidUUID;
 
 @end

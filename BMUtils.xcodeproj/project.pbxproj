@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B46F8AAC1C6F2ECE0009F9FE /* UIColor+BMColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = B46F8AAA1C6F2ECE0009F9FE /* UIColor+BMColorHex.h */; };
 		B46F8AAD1C6F2ECE0009F9FE /* UIColor+BMColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F8AAB1C6F2ECE0009F9FE /* UIColor+BMColorHex.m */; };
+		B43F9E101C5E30BB00B9778A /* BMPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B43F9E0E1C5E30BB00B9778A /* BMPlaceholderTextView.h */; };
+		B43F9E111C5E30BB00B9778A /* BMPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F9E0F1C5E30BB00B9778A /* BMPlaceholderTextView.m */; };
+		B4815A8D1C5545EF00A42C8B /* NSArray+BMFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */; };
+		B4815A8E1C5545EF00A42C8B /* NSArray+BMFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */; };
 		B48942C01C4ECC640046D541 /* BMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942BF1C4ECC640046D541 /* BMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = B48942D31C4ECDF60046D541 /* UIView+BMFindSubview.h */; };
 		B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = B48942D41C4ECDF60046D541 /* UIView+BMFindSubview.m */; };
@@ -23,6 +27,10 @@
 /* Begin PBXFileReference section */
 		B46F8AAA1C6F2ECE0009F9FE /* UIColor+BMColorHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BMColorHex.h"; sourceTree = "<group>"; };
 		B46F8AAB1C6F2ECE0009F9FE /* UIColor+BMColorHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BMColorHex.m"; sourceTree = "<group>"; };
+		B43F9E0E1C5E30BB00B9778A /* BMPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPlaceholderTextView.h; sourceTree = "<group>"; };
+		B43F9E0F1C5E30BB00B9778A /* BMPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPlaceholderTextView.m; sourceTree = "<group>"; };
+		B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BMFunctional.h"; sourceTree = "<group>"; };
+		B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BMFunctional.m"; sourceTree = "<group>"; };
 		B48942BC1C4ECC640046D541 /* BMUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48942BF1C4ECC640046D541 /* BMUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMUtils.h; sourceTree = "<group>"; };
 		B48942C11C4ECC640046D541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +86,10 @@
 				B48942F01C501C980046D541 /* NSString+BMRegex.m */,
 				B46F8AAA1C6F2ECE0009F9FE /* UIColor+BMColorHex.h */,
 				B46F8AAB1C6F2ECE0009F9FE /* UIColor+BMColorHex.m */,
+				B4815A8B1C5545EF00A42C8B /* NSArray+BMFunctional.h */,
+				B4815A8C1C5545EF00A42C8B /* NSArray+BMFunctional.m */,
+				B43F9E0E1C5E30BB00B9778A /* BMPlaceholderTextView.h */,
+				B43F9E0F1C5E30BB00B9778A /* BMPlaceholderTextView.m */,
 			);
 			path = BMUtils;
 			sourceTree = "<group>";
@@ -92,7 +104,9 @@
 				B48942C01C4ECC640046D541 /* BMUtils.h in Headers */,
 				B46F8AAC1C6F2ECE0009F9FE /* UIColor+BMColorHex.h in Headers */,
 				B48942F11C501C980046D541 /* NSString+BMRegex.h in Headers */,
+				B43F9E101C5E30BB00B9778A /* BMPlaceholderTextView.h in Headers */,
 				B48942E71C500DAA0046D541 /* BMKeychainWrapper.h in Headers */,
+				B4815A8D1C5545EF00A42C8B /* NSArray+BMFunctional.h in Headers */,
 				B48942D91C4ECDF60046D541 /* UIView+BMLayoutConstraints.h in Headers */,
 				B48942D71C4ECDF60046D541 /* UIView+BMFindSubview.h in Headers */,
 			);
@@ -169,6 +183,8 @@
 				B48942E81C500DAA0046D541 /* BMKeychainWrapper.m in Sources */,
 				B48942DA1C4ECDF60046D541 /* UIView+BMLayoutConstraints.m in Sources */,
 				B46F8AAD1C6F2ECE0009F9FE /* UIColor+BMColorHex.m in Sources */,
+				B43F9E111C5E30BB00B9778A /* BMPlaceholderTextView.m in Sources */,
+				B4815A8E1C5545EF00A42C8B /* NSArray+BMFunctional.m in Sources */,
 				B48942F21C501C980046D541 /* NSString+BMRegex.m in Sources */,
 				B48942D81C4ECDF60046D541 /* UIView+BMFindSubview.m in Sources */,
 			);

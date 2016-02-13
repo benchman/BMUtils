@@ -16,6 +16,10 @@
 }
 
 + (BOOL)saveData:(NSData *)data forKey:(NSString *)key {
+    if (!data || !key) {
+        return NO;
+    }
+    
     NSDictionary *searchDict = [self searchDictForKey:key];
     SecItemDelete((CFDictionaryRef)searchDict);
     

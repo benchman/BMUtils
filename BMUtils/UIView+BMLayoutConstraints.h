@@ -18,10 +18,10 @@
 - (NSLayoutConstraint *)setHeight:(CGFloat)height;
 - (NSLayoutConstraint *)setEqualHeightsWithSubview:(UIView *)view;
 
-- (NSLayoutConstraint *)attachSubviewTrailing:(UIView *)view;
-- (NSLayoutConstraint *)attachSubviewLeading:(UIView *)view;
-- (NSLayoutConstraint *)attachSubviewTop:(UIView *)view;
-- (NSLayoutConstraint *)attachSubviewBottom:(UIView *)view;
+- (NSLayoutConstraint *)attachSubview:(UIView *)view trailing:(CGFloat)trailing;
+- (NSLayoutConstraint *)attachSubview:(UIView *)view leading:(CGFloat)leading;
+- (NSLayoutConstraint *)attachSubview:(UIView *)view top:(CGFloat)top;
+- (NSLayoutConstraint *)attachSubview:(UIView *)view bottom:(CGFloat)bottom;
 
 - (NSLayoutConstraint *)allignSubviewToTrailing:(UIView *)view;
 - (NSLayoutConstraint *)allignSubviewToLeading:(UIView *)view;

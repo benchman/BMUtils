@@ -44,26 +44,26 @@
     return constraint;
 }
 
-- (NSLayoutConstraint *)attachSubviewTrailing:(UIView *)view {
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:0];
+- (NSLayoutConstraint *)attachSubview:(UIView *)view trailing:(CGFloat)trailing {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:trailing];
     [self addConstraint:constraint];
     return constraint;
 }
 
-- (NSLayoutConstraint *)attachSubviewLeading:(UIView *)view {
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeLeading multiplier:1.0 constant:0];
+- (NSLayoutConstraint *)attachSubview:(UIView *)view leading:(CGFloat)leading {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeLeading multiplier:1.0 constant:leading];
     [self addConstraint:constraint];
     return constraint;
 }
 
-- (NSLayoutConstraint *)attachSubviewTop:(UIView *)view {
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
+- (NSLayoutConstraint *)attachSubview:(UIView *)view top:(CGFloat)top {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTop multiplier:1.0 constant:top];
     [self addConstraint:constraint];
     return constraint;
 }
 
-- (NSLayoutConstraint *)attachSubviewBottom:(UIView *)view {
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0];
+- (NSLayoutConstraint *)attachSubview:(UIView *)view bottom:(CGFloat)bottom {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1.0 constant:bottom];
     [self addConstraint:constraint];
     return constraint;
 }

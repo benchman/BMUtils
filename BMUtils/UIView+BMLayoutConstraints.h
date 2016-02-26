@@ -12,6 +12,8 @@
 
 - (void)coverWithView:(UIView *)view;
 
+- (void)addSubviewCentered:(UIView *)view;
+
 - (NSLayoutConstraint *)setWidth:(CGFloat)width;
 - (NSLayoutConstraint *)setEqualWidthsWithSubview:(UIView *)view;
 

@@ -52,6 +52,18 @@
     return constraint;
 }
 
+- (NSLayoutConstraint *)centerSubview:(UIView *)view horizontallyWithOffset:(CGFloat)offset {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:offset];
+    [self addConstraint:constraint];
+    return constraint;
+}
+
+- (NSLayoutConstraint *)centerSubview:(UIView *)view verticallyWithOffset:(CGFloat)offset {
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:offset];
+    [self addConstraint:constraint];
+    return constraint;
+}
+
 - (NSLayoutConstraint *)attachSubview:(UIView *)view trailing:(CGFloat)trailing {
     NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:trailing];
     [self addConstraint:constraint];

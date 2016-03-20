@@ -11,8 +11,8 @@
 @implementation BMKeychainWrapper
 
 + (NSDictionary *)searchDictForKey:(NSString *)key {
-    return @{(id)kSecClass : (id)kSecClassGenericPassword,
-             (id)kSecAttrLabel : key};
+    return @{(id)kSecClass: (id)kSecClassGenericPassword,
+             (id)kSecAttrAccount: key};
 }
 
 + (BOOL)saveData:(NSData *)data forKey:(NSString *)key {
@@ -22,7 +22,6 @@
     
     NSDictionary *searchDict = [self searchDictForKey:key];
     SecItemDelete((CFDictionaryRef)searchDict);
-    
     NSMutableDictionary *newDict = [NSMutableDictionary dictionaryWithDictionary:searchDict];
     newDict[(id)kSecValueData] = data;
     

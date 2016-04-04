@@ -65,7 +65,7 @@
 }
 
 - (NSLayoutConstraint *)attachSubview:(UIView *)view trailing:(CGFloat)trailing {
-    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:trailing];
+    NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:view attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:-trailing];
     [self addConstraint:constraint];
     return constraint;
 }
